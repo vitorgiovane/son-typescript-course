@@ -1,0 +1,28 @@
+{
+  "name": "son-typescript-course",
+  "version": "1.0.0",
+  "description": "Second revision of Typescript course at School Of Net.",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorgiovane/son-typescript-course.git"
+  },
+  "author": "Vitor Giovane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorgiovane/son-typescript-course/issues"
+  },
+  "homepage": "https://github.com/vitorgiovane/son-typescript-course#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.5.3"
+  }
+}
