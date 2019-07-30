@@ -1,11 +1,18 @@
-const multiplication = (multiplying, multiplier) => multiplying * multiplier;
-const product = multiplication(3, 7);
+var multiplication = function (multiplying, multiplier) {
+    return multiplying * multiplier;
+};
+var product = multiplication(3, 7);
 console.log("product", product);
 // Default parâmeter
-const fullName = (firstName, lastName = "Giovane") => `${firstName} ${lastName}`;
-const myFullName = fullName("Vitor");
+var fullName = function (firstName, lastName) {
+    if (lastName === void 0) { lastName = "Giovane"; }
+    return firstName + " " + lastName;
+};
+var myFullName = fullName("Vitor");
 console.log(myFullName);
 // Opitional parâmeter
-const incompleteName = (firstName, lastName) => `${firstName} ${lastName || ""}`;
-const myIncompleteName = incompleteName("Vitor");
+var incompleteName = function (firstName, lastName) {
+    return firstName + " " + (lastName || "");
+};
+var myIncompleteName = incompleteName("Vitor");
 console.log(myIncompleteName);

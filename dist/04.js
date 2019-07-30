@@ -1,15 +1,15 @@
 // boolean
-let success = false;
+var success = false;
 // success
 // numbers
-let num1 = 10;
-let num2 = 10.5;
-let num3 = 0xfa;
-let name1 = "Vitor Giovane";
-let name2 = "Vitor Giovane";
+var num1 = 10;
+var num2 = 10.5;
+var num3 = 0xfa;
+var name1 = "Vitor Giovane";
+var name2 = "Vitor Giovane";
 // array
-let letters = ["a", "b", "c"];
-let words = ["tree", "ball", "man"];
+var letters = ["a", "b", "c"];
+var words = ["tree", "ball", "man"];
 // enum
 var maritalStatus;
 (function (maritalStatus) {
@@ -18,7 +18,7 @@ var maritalStatus;
     maritalStatus[maritalStatus["divorcied"] = 2] = "divorcied";
     maritalStatus[maritalStatus["widower"] = 3] = "widower";
 })(maritalStatus || (maritalStatus = {}));
-const myMaritalStatus = maritalStatus.single;
+var myMaritalStatus = maritalStatus.single;
 if (myMaritalStatus === maritalStatus.single) {
     console.log("I am single");
 }

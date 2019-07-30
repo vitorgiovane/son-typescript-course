@@ -6,23 +6,23 @@ function showWithVar() {
     console.log(text);
 }
 function showWithLet() {
-    let text = "Vitor Giovane";
+    var text = "Vitor Giovane";
     if (true) {
-        let text = "text";
+        var text_1 = "text";
     }
     console.log(text);
 }
-const showWithVarArrowFunction = () => {
+var showWithVarArrowFunction = function () {
     var text = "Vitor Giovane";
     if (true) {
         var text = "text";
     }
     console.log(text);
 };
-const showWithLetArrowFunction = () => {
-    let text = "Vitor Giovane";
+var showWithLetArrowFunction = function () {
+    var text = "Vitor Giovane";
     if (true) {
-        let text = "text";
+        var text_2 = "text";
     }
     console.log(text);
 };

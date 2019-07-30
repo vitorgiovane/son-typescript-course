@@ -1,16 +1,16 @@
-let obj1 = {
+var obj1 = {
     firstName: "Vitor",
     lastName: "Giovane"
 };
 // obj = "Text"
-let obj2 = {
+var obj2 = {
     category: "First category",
     product: "First product"
 };
 obj2 = 2;
-let variable = 4;
+var variable = 4;
 variable = {};
 variable = "string";
 variable = false;
-let myArray = [2, "string", false, { name: "Vitor Giovane" }];
-let myArray2 = [2, "string", false, { name: "Vitor Giovane" }];
+var myArray = [2, "string", false, { name: "Vitor Giovane" }];
+var myArray2 = [2, "string", false, { name: "Vitor Giovane" }];
