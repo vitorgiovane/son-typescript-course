@@ -39,6 +39,5 @@ var Programmer = /** @class */ (function (_super) {
 var vitor = new Programmer();
 vitor.name = "Vitor";
 vitor.velocity = 90;
-vitor.slee;
 vitor.work();
 console.log(vitor);
